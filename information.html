@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电影详情</title>
+    <link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.css" type="text/css">
+    <link rel="stylesheet" href="css/style-im.css" type="text/css">
+    <link rel="icon"  href="images/head_icon.JPG" >
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div id="header">
+    <a href="index.html" class="h-title">豆瓣</a>
+    <div class="head_search">
+        <input type="text" class="search" name="search">
+    </div>
+    <button class="head_search_btn">查询</button>
+    <a class="head_reg_a" href="#">注册</a><a class="head_login_a" href="#">登陆</a>
+</div>
+<div id="head_reg">
+    <p>
+        <label>账号：</label>
+        <input type="text" class="reg-user text" name="user url" title="请输入账号" minlength="11">
+        <span class="star">*</span>
+        <span class="reg-error">账号或密码错误</span>
+    </p>
+    <p>
+        <label>密码：</label>
+        <input type="password" class="reg-pass text" name="pass" title="请输入密码">
+        <span class="star">*</span>
+        <span class="reg-error">账号已存在</span>
+    </p>
+    <p>
+        <label>邮箱：</label>
+        <input type="email" class="reg-email text" name="email" title="请输入邮箱！" >
+        <span class="star">*</span>
+        <span class="reg-error">账号已存在</span>
+    </p>
+
+    <p>
+        <label>性别：</label>
+        <input type="radio" value="male" name="sex" id="male" checked="checked"><label for="male">男</label></input><input type="radio" value="female" name="sex" id="female"><label for="female">女</label></input>
+    </p>
+    <p>
+        <label>生日：</label>
+        <input type="text" class="reg-birth text" name="birth" readonly="readonly">
+        <span class="star"></span>
+    </p>
+</div>
+
+
+
+<div id="head_login">
+    <p>
+        <label>账号：</label>
+        <input type="text" class="login-user text" name="user" title="请输入账号">
+        <span class="star">*</span>
+        <span class="reg-error">账号或密码错误</span>
+    </p>
+    <p>
+        <label>密码：</label>
+        <input type="password" class="login-pass text" name="pass" title="请输入密码">
+        <span class="star">*</span>
+        <span class="reg-error">账号已存在</span>
+    </p>
+</div>
+
+
+<div id="container">
+
+    <div id="co-right">
+        <div class="r-pf"><a href="https://blog.douban.com/douban/2015/12/18/3060/">豆瓣电影评分八问</a></div>
+        <div class="r-activity">电影活动...<a href="#">资讯丨法鲨异形同框对望危机四伏</a><a href="#">瓣嘴2丨黎明变萌叔回应网友最强吐槽</a><a href="#">有奖话题 | #我的探索未知历险记#</a></div>
+        <div class="r-rank">
+            <h4>本周口碑榜</h4>
+            <ol class="r-rank-ul" >
+                <li><a href="#">在这世界的角落</a></li>
+                <li><a href="#">沃伦</a></li>
+                <li><a href="#">声之形</a></li>
+                <li><a href="#">宝贝老板</a></li>
+                <li><a href="#">亚瑟王：斗兽争霸</a></li>
+                <li><a href="#">我的叔叔</a></li>
+                <li><a href="#">何者</a></li>
+                <li><a href="#">情歌</a></li>
+                <li><a href="#">异星觉醒</a></li>
+                <li><a href="#">巴霍巴利王（下）：终结</a></li>
+            </ol>
+        </div>
+        <div class="r-dhq">>通兑券换票</div>
+        <div class="r-rm">
+            <h4>热门豆列</h4>
+            <ul class="r-rm-ul" >
+                <li><a href="#">故事发生在一天内的电影</a></li>
+                <li><a href="#">【已有资源】kc</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="im-mov">
+        <div class="im-title">加勒比海盗3：世界的尽头Pirates of the Caribbean: At World's End (2007)</div>
+        <div class="subject-wrap">
+            <div class="sub-img"><img src="images/mov-list-1.png"></div>
+            <div class="sub-info">
+                <!--导演 主演 类型 制片国家-->
+                <table>
+                    <tr>
+                        <td class="td1">导演：</td>
+                        <td>戈尔·维宾斯基</td>
+                    </tr>
+                    <tr>
+                        <td class="td1">主演：</td>
+                        <td>约翰尼·德普 / 杰弗里·拉什 / 奥兰多·布鲁姆 / 凯拉·奈特莉 / 周润发</td>
+                    </tr>
+                    <tr>
+                        <td class="td1">类型：</td>
+                        <td>动作 / 奇幻 / 冒险</td>
+                    </tr>
+                    <tr>
+                        <td class="td1">制片国家：</td>
+                        <td>美国</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="sub-pf">
+                <p>豆瓣评分</p>
+                <div class="pf-img">
+                    <span>8.0</span>
+                    <input class="a-comment" type="button" value="写影评">
+                </div>
+                <div class="pf-comment">
+                    <div id="pf-comment-dialog">
+                        <input type="button" value="1分">
+                        <input type="button" value="2分">
+                        <input type="button" value="3分">
+                        <input type="button" value="4分">
+                        <input type="button" value="5分">
+                        <input type="button" value="6分">
+                        <input type="button" value="7分">
+                        <input type="button" value="8分">
+                        <input type="button" value="9分">
+                        <input type="button" value="10分">
+
+                        <textarea class="pf-txtarea"></textarea>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="comment-wrap">
+            <div class="com-title"><span>加勒比海盗4</span>影评  · · · · · ·</div>
+                <ul class="com-ul">
+                    <li><p>用户某某某<div>2017-5-25</div><div>评分：8.0</div></p><span>awefqawfasdfqweqweq</span></li>
+                    <li><p>用户某某某</p><span>awefqawfasdfqweqweq</span></li>
+                    <li><p>用户某某某</p><span>awefqawfasdfqweqweq</span></li>
+                    <li><p>用户某某某</p><span>awefqawfasdfqweqweq</span></li>
+                    <li><p>用户某某某</p><span>awefqawfasdfqweqweq</span></li>
+                </ul>
+            <a href="comment.html">加载更多...</a>
+        </div>
+    </div>
+</div>
+<script src="js/form.js"></script>
+</body>
+</html>

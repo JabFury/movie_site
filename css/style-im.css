@@ -1,0 +1,443 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    background: #ffffff;
+}
+#header {
+    width: 100%;
+    height: 50px;
+    background-color: #F2F4F5;
+    z-index: 9999;
+    position: relative;
+}
+#header .h-title {
+    width: 20%;
+    height: 50px;
+    font-size: 30px;
+    color: #1C88CB;
+    line-height: 50px;
+    text-align: right;
+    margin: 0;
+    padding:0;
+    float: left;
+}
+#header .head_search {
+    width: 30%;
+    height: 40px;
+    margin-left: 20px;
+    padding:0;
+    float: left;
+}
+#header .head_search input {
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin: 10px auto;
+    padding:0;
+}
+#header .head_search_btn{
+    width: 5%;
+    height: 35px;
+    float: left;
+    margin: 10px 20px;
+    padding:0;
+    border-radius: 10px;
+    color: #1C88CB;
+}
+#header a {
+    float: right;
+    text-decoration: none;
+    width: 7%;
+    line-height:50px;
+    height: 50px;
+    color:black;
+    margin: 0;
+    padding:0;
+    text-align: center;
+}
+#header .head_reg_a {
+    margin-right: 5%;
+}
+#head_reg {
+    margin:0;
+    padding:20px 0 0 20px;
+}
+
+#head_login {
+    margin:0;
+    padding:20px 0 0 20px;
+}
+#head_reg  label{
+    float: left;
+    color: #666;
+}
+#head_login  label{
+    float: left;
+    color: #666;
+}
+#male {
+    background: white;
+}
+.star{
+    width: 3%;
+    height: 35px;
+    color: red;
+    font-size: 20px;
+    float: left;
+    margin-left: 60%;
+    line-height: 30px;
+}
+
+
+
+.reg-user {
+    margin: 0;
+    padding:0;
+    height: 30px;
+    width: 55%;
+    color: #666;
+    float: left;
+}
+.reg-pass {
+    margin: 0;
+    padding:0;
+    height: 30px;
+    width: 55%;
+    color: #666;
+    float: left;
+}
+.reg-email {
+    margin: 0;
+    padding:0;
+    height: 30px;
+    width: 55%;
+    color: #666;
+    float: left;
+}
+.reg-birth {
+    margin: 0;
+    padding:0;
+    height: 30px;
+    width: 55%;
+    color: #666;
+    float: left;
+}
+
+.login-user {
+    margin: 0;
+    padding:0;
+    height: 30px;
+    width: 55%;
+    color: #666;
+    float: left;
+}
+.login-pass {
+    margin: 0;
+    padding:0;
+    height: 30px;
+    width: 55%;
+    color: #666;
+    float: left;
+}
+#head_reg p {
+    width: 100%;
+    height: 40px;
+    float: left;
+    margin: 7px 0;
+    padding:0;
+}
+#head_login p {
+    width: 100%;
+    height: 40px;
+    float: left;
+    margin: 7px 0;
+    padding:0;
+}
+.reg-error {
+    font-size: 13px;
+    float: right;
+    color: red;
+    display: none;
+}
+
+
+
+
+#container {
+    width: 70%;
+    height: 1000px;
+    margin: 0 auto;
+    padding:0;
+}
+#container a {
+    text-decoration: none;
+}
+
+
+
+#co-right {
+    width: 21%;
+    height: 1000px;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+#co-right a {
+    color: #3377AA;
+}
+#co-right .r-pf {
+    width: 100%;
+    height: 40px;
+    float: left;
+    background: #F2F7F6;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 40px;
+    font-size: 13px;
+}
+.r-pf a {
+    text-decoration: none;
+}
+.r-activity {
+    width: 100%;
+    height: 140px;
+    float: left;
+    margin-top: 30px;
+    padding:10px 0 0 10px;
+    background: #F2F7F6;
+    color: #007722;
+    font-size: 16px;
+    font-family: "Microsoft YaHei UI Light";
+}
+.r-activity a {
+    width: 100%;
+    height: 20px;
+    float: left;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.r-rank {
+    width: 100%;
+    height: 450px;
+    float: left;
+    margin-top: 20px;
+}
+.r-rank h4 {
+    border-bottom: 1px solid #cccccc;
+    height:60px;
+    line-height: 50px;
+    margin: 0;
+}
+.r-rank .r-rank-ul {
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
+}
+.r-rank-ul li {
+    width: 80%;
+    height: 35px;
+    border-bottom: 1px solid #cccccc;
+    float: left;
+    line-height: 35px;
+}
+#co-right .r-dhq {
+    width: 100%;
+    height: 40px;
+    float: left;
+    background: #E3EBEC;
+    margin-top: 30px;
+    line-height: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+.r-rm {
+    width: 100%;
+    float: right;
+    margin-top: 20px;
+}
+.r-rm h4 {
+    border-bottom: 1px solid #cccccc;
+    height:60px;
+    line-height: 50px;
+    margin: 0;
+}
+.r-rm .r-rm-ul {
+    width: 100%;
+    height: 100%;
+    float: right;
+    margin: 0;
+    text-align: center;
+    font-size: 11px;
+    padding:0;
+}
+.r-rm-ul li {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #cccccc;
+    float: left;
+    line-height: 35px;
+    list-style: none;
+}
+
+
+#im-mov {
+    width: 75%;
+    float: left;
+}
+#im-mov img {
+    width: 100%;
+    height: 100%;
+}
+.im-title {
+    width: 100%;
+    height: 70px;
+    font-size: 22px;
+    margin: 0;
+    padding:0;
+    line-height: 70px;
+    text-align: left;
+    float: left;
+    font-family: "微软雅黑 Light";
+}
+.subject-wrap {
+    width: 100%;
+    height: 350px;
+    float: left;
+    margin-top: 20px;
+}
+.sub-img {
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-top: 50px;
+    padding:0;
+}
+.a-comment{
+    width: 35%;
+    height: 40px;
+    font-size: 17px;
+    margin: 90px 0 0 25%;
+    text-align: center;
+    line-height: 30px;
+}
+.sub-info {
+    width: 47%;
+    height: 350px;
+    float: left;
+    border-right:1px solid #cccccc;
+    padding-right: 2%;
+}
+.sub-info table {
+    width: 100%;
+    height: 250px;
+    margin: 50px 0 0 5%;
+}
+.td1 {
+    width: 28%;
+}
+.sub-pf {
+    width: 30%;
+    height: 270px;
+    float: right;
+    border-bottom: 1px solid #cccccc;
+    font-size: 20px;
+}
+/*.pf-img {*/
+    /*width: 80%;*/
+    /*height: 150px;*/
+    /*float: left;*/
+    /*margin: 5px 0 0 10%;*/
+/*}*/
+.sub-pf span {
+    width: 100%;
+    height: 30px;
+    float: left;
+    font-size: 27px;
+    margin: 20px 0 0 2%;
+}
+.pf-comment {
+    width: 100%;
+    height: 70px;
+    float: right;
+    margin-top: 50px;
+    line-height: 90px;
+}
+.pf-img a {
+    font-size: 18px;
+    margin-left:20%;
+    color: #338CC8;
+    text-decoration: none;
+}
+#pf-comment-dialog input {
+    width: 17%;
+    height: 40px;
+    float: left;
+    margin:10px 0 0 2%;
+}
+.pf-txtarea {
+    width: 80%;
+    height: 180px;
+    margin:10px 0 0 8%;
+}
+
+
+
+
+.comment-wrap {
+    width: 100%;
+    height: 620px;
+    float: left;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.com-title {
+    width: 100%;
+    height: 100px;
+    font-size: 22px;
+    line-height: 100px;
+    color: #007722;
+    border-bottom: 1px solid #cccccc;
+}
+.com-title span {
+    width: 20%;
+    height: 70px;
+    margin-right: 2%;
+}
+.com-ul{
+    width: 85%;
+    margin: 0 auto;
+    padding:0;
+}
+.com-ul li {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #cccccc;
+    list-style: none;
+}
+.com-ul p{
+    line-height: 10px;
+    font-size: 20px;
+    color: #3377AA;
+}
+.com-ul span{
+    line-height: 60px;
+    font-size: 20px;
+}
+.comment-wrap a {
+    font-size: 17px;
+    text-decoration: none;
+    color:#3377AA;
+    float: right;
+    margin: 20px 15% 0 0;
+}
+.com-ul  div{
+    float: right;
+    margin-right:30px;
+    padding:0;
+}
